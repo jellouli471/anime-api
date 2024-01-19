@@ -1,0 +1,105 @@
+
+
+.App-con{
+  backdrop-filter: blur(16px);
+
+  display: flex;
+  flex-direction: column;
+}
+.headShearche{
+  width: 100%;
+  height: 60px;
+  margin: 50px 0px;
+}
+.headShearche{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp-btn{
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inpsea {
+  width: 100%;
+  height: 80%;
+}
+.inpsea input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: #1E202C;
+  border: none;
+  padding-left: 10px;
+}
+
+.TopAnime{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  width: 200px;
+  height:294px;
+  padding:7px;
+}
+.image-anime{
+  width: 100%;
+  height: 100%;
+  transition: display 1s ;
+}
+.image-anime img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+.title-anime{
+  z-index: 99;
+  backdrop-filter: blur(16px);
+  background-color: #0000009c;
+  height: 70%;
+  position: relative;
+  bottom: 71%;
+  display: none;
+  cursor: pointer;
+  transition: display 1s ;
+
+}
+.title{
+  text-align: center;
+}
+.centtr{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-anime:hover  .title-anime {
+  display: block;
+
+}
+.listser{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 99;
+  background-color: white;
+  padding: 7px;
+  opacity: 0;
+}
+.listser li{
+  border-bottom: 1px solid #313131;
+  padding: 16px 0px;
+  color: black;
+
+}
+.inpsea:hover .listser{
+  opacity: 1;
+}

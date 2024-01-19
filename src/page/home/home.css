@@ -1,0 +1,112 @@
+
+
+
+.con-anime{
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+  background-color: #13141C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.list-movie{
+display: flex;
+flex-direction: row;
+
+}
+.card-movie{
+  margin-top: 20px;
+  margin-left: 30px;
+  position: relative;
+  overflow: hidden;
+  width: 208px;
+  height: 293.34px;
+
+}
+.img-movie{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.img-movie img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5 ease;
+
+}
+
+.title-movie{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em 1.5em 2em;
+  backdrop-filter: blur(16px);
+  background-color: #0000009c;
+  transition: 0.5s ease;
+}
+.card-movie:hover .title-movie{
+  bottom: 0;
+}
+.title-movie h1{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+.title-movie {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.title-movie p{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+
+}
+*/

@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+
+
+.side-bare{
+  height: 100%;
+  background-color: #1E202C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.chos-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 10%;
+
+}
+.chos-links a{
+  margin:9px 0px;
+}
+.logo{
+  padding: 12% 0%;
+}
